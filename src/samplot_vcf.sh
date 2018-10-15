@@ -89,6 +89,7 @@ if [ -z "$vcf" ]; then
     usage
     exit 1
 fi
+mkdir -p $outdir
 
 bams=""
 tmp=$@
