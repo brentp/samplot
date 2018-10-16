@@ -1023,6 +1023,7 @@ parser.add_option("-W",
 parser.add_option("-q",
                   dest="min_mqual",
                   type=int,
+                  default=1,
                   help="Min mapping quality of reads to be included in plot")
 
 parser.add_option("-j",
